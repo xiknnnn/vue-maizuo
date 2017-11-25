@@ -37,6 +37,7 @@
 </section>
 </template>
 <script>
+require('swiper/dist/css/swiper.css')
 import {mapGetters,mapActions,mapMutations} from 'vuex'
 import {swiper,swiperSlide} from 'vue-awesome-swiper'
 import {CHANGE_FIXED_STATE} from '../../vuex/mutation-types'
