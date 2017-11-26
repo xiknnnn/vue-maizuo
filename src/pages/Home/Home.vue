@@ -85,7 +85,7 @@ export default {
 		this.billboard.length  || this.getBillboard();
 		this.comingSoon.length  || this.getComingSoon();
 		this.nowPlaying.length  || this.getNowPlaying();
-		this.changeFixed(false);
+		this.changeFixed(true);
 		console.log(this.isFixed)
 		// this.$store.dispatch('getBillboard');
 		// this.$store.dispatch('getComingSoon');
@@ -96,6 +96,7 @@ export default {
 <style lang="less" scoped>
 @import "../../assets/z.less";
 	section{
+		.pt(50);
 		.banner{
 			.h(210);
 			img{

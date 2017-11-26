@@ -80,11 +80,11 @@ export default {
 			height: 100%
 		}
 		.sidebar{
-			.pos(f);
-			.t(0);
+			.pos(a);
+			.t(50);
 			.b(0);
-			.mt(50);
-			height: 100%;
+
+			height: 620px;
 			width: 70%;
 			// height: 100%;
 			background-color: #282828;
