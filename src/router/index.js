@@ -17,11 +17,11 @@ import CenimasDetail from '@/pages/Detail/CinemasDetail'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
+	routes: [
 			{
 				name:'Home',
 				path:'/',
-				component:Home
+				component:Home,
 			},
 			{
 				name:'Films',

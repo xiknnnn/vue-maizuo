@@ -87,9 +87,6 @@ export default {
 		this.nowPlaying.length  || this.getNowPlaying();
 		this.changeFixed(true);
 		console.log(this.isFixed)
-		// this.$store.dispatch('getBillboard');
-		// this.$store.dispatch('getComingSoon');
-
 	},
 }
 </script>

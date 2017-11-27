@@ -2,7 +2,7 @@
 	<div id="wrapper">
 		<div class="films">
 			<div class="films-header">
-				{{filmLoading}}
+				<!-- {{filmLoading}} -->
 				<router-link to="/films/now-playing"><div class="router-link-exact-active router-exact-active">正在热播</div></router-link>
 				<router-link to="/films/coming-soon"><div>即将上映</div></router-link>
 			</div>
